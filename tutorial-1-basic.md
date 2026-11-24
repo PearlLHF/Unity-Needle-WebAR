@@ -1,6 +1,4 @@
-# W3 第 1 节课：从 Unity 场景到 WebAR
-
-对应 deck：`W3Slides/Unity-Needle-WebAR-basic.md`。
+# 第 1 节课：从 Unity 场景到 WebAR
 
 这一部分不写脚本。`prerequisite/` 里只用到一个文件：`Install Needle Engine Unity Integration.unitypackage`。
 
