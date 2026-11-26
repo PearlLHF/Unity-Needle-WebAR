@@ -184,9 +184,10 @@ Needle 会为每个 TypeScript 组件自动生成一个同名的 C# 文件。这
 如果等了一分钟还没有生成，按顺序尝试：
 
 1. 回到 VS Code，确认文件在 `src/scripts/` 或它的子文件夹里，并且已经保存。
-2. 在 Unity 里选中带 `Needle Engine` 组件的对象，在组件上点击 `Generate C# Components`。
-3. 确认 Web 项目已经安装过依赖。没有按过 Play 的话，先按一次 Play，等浏览器打开页面。
-4. 关闭 Unity 再重新打开项目。
+2. 在 Unity 里选中带 `Needle Engine` 组件的对象，在 Inspector 中取消勾选 `Component Generator` 组件并保存场景，再重新勾选该组件并保存，触发重新生成。
+3. 回到 VS Code，在 `.ts` 文件中任意位置加一个空格再删掉，然后重新保存（`Ctrl+S` / `Cmd+S`），重新触发导入。
+4. 确认 Web 项目已经安装过依赖。没有按过 Play 的话，先按一次 Play，等浏览器打开页面。
+5. 关闭 Unity 再重新打开项目。
 
 ### C. 在 Unity 里 Add Component 并填参数
 
@@ -490,7 +491,7 @@ Needle 会为每个 TypeScript 组件自动生成一个同名的 C# 文件。这
 
 | 问题 | 处理方法 |
 |---|---|
-| `Add Component` 里搜不到组件 | 确认脚本在 Web 项目的 `src/scripts/` 或它的子文件夹里，并且已保存。切回 Unity 等待编译。仍然没有就点 `Needle Engine` 组件上的 `Generate C# Components`，或重启 Unity。 |
+| `Add Component` 里搜不到组件 | 确认脚本在 Web 项目的 `src/scripts/` 或它的子文件夹里，并且已保存。切回 Unity 等待编译。仍然没有就在 `Needle Engine` 组件上取消勾选 `Component Generator` 保存后再勾选保存，或在 `.ts` 文件中加删空格重新保存，必要时重启 Unity。 |
 | 改了参数，网页没有变化 | 在 Unity 里保存场景。确认本地服务器还在运行，必要时再按一次 Play。 |
 | 改了代码，网页没有变化 | 确认 VS Code 里的文件已保存。看浏览器 Console 有没有红色报错。 |
 | Cube 转得太快或几乎不动 | `Speed` 的单位是弧度每秒，先用 `1` 到 `3` 之间的数值。 |
