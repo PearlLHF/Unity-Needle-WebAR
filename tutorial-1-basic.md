@@ -1,6 +1,6 @@
 # 第 1 节课：从 Unity 场景到 WebAR
 
-这一部分不写脚本。`prerequisite/` 里只用到一个文件：`Install Needle Engine Unity Integration.unitypackage`。
+这一部分不写脚本。[`prerequisite/`](prerequisite/) 里只用到一个文件：[`Install Needle Engine Unity Integration.unitypackage`](prerequisite/Install%20Needle%20Engine%20Unity%20Integration.unitypackage)。
 
 做完后你会得到一个名为 `FirstWebAR` 的场景，里面有一个 `Cube`。它可以在电脑浏览器里预览，也可以在支持的手机上进入 AR。后面两节课都在这个场景上继续做，请保存好。
 
@@ -126,7 +126,7 @@ macOS 的终端里提示 `command not found: node` 时，关掉终端重新打�
 
 ### 导入 Needle Engine 安装包的方法
 
-安装包在课程资料的 `prerequisite/` 文件夹里，文件名是 `Install Needle Engine Unity Integration.unitypackage`，大小约 20 KB。导入后 Unity 会联网下载 Needle Engine 的包，所以导入时电脑需要联网。
+安装包在GitHub课程资料的 [`prerequisite/`](prerequisite/) 文件夹里，文件名是 [`Install Needle Engine Unity Integration.unitypackage`](prerequisite/Install%20Needle%20Engine%20Unity%20Integration.unitypackage)，大小约 20 KB。导入后 Unity 会联网下载 Needle Engine 的包，所以导入时电脑需要联网。
 
 导入需要先有一个打开的 Unity 项目。项目在练习 1 的第 1 到 4 步创建，创建好后回到这里操作。
 
