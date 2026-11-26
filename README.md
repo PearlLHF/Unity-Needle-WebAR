@@ -11,6 +11,7 @@
    - 完成结果：创建一个带 `Cube` 的 WebAR 场景，后续课程会在此基础上继续练习。
 2. 第 2 节课：用 TypeScript 给物体加交互
    - 教程文档：[tutorial-2-interaction.md](tutorial-2-interaction.md)
+   - 课程幻灯片：[slides/Unity-Needle-WebAR-interaction.pdf](slides/Unity-Needle-WebAR-interaction.pdf)
    - 内容概述：用 TypeScript 实现点击旋转与提示消息、添加 UI 控件、使用 `DragControls` 拖放和吸附物体，并练习角色动画与交互。
    - 示例脚本：[scripts/](scripts/)
 3. 第 3 节课：AI 智能体与角色交互
