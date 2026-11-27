@@ -1,5 +1,9 @@
 # Unity-Needle-WebAR
 
+> **📌 课前必读：[AI 编程工具使用指南（如何用 Workspace 上下文排查 Unity 与 WebAR 问题）](ai-tool-workspace-guide.md)**
+>
+> 写代码和排查报错时，不要只用网页版 Chat 工具复制粘贴片段或者上传截图。请使用 Antigravity、VS Code（GitHub Copilot）、Claude Code、Codex、DeepSeek Harness 或 WorkBuddy 直接打开你的 Unity 工程工作区，让 AI 结合完整的项目上下文精准定位问题。
+
 本仓库存放基于 Unity 与 Needle Engine 的 WebAR 课程课件与实验教程。
 
 ## 课程内容
@@ -25,6 +29,7 @@
 ```text
 Unity-Needle-WebAR/
 ├── README.md
+├── ai-tool-workspace-guide.md                               # AI 编程工具与工作区上下文使用指南
 ├── tutorial-1-basic.md                                      # 第 1 节课：创建 WebAR 场景
 ├── tutorial-2-interaction.md                                # 第 2 节课：TypeScript 交互
 ├── tutorial-3-ai-agent.md                                   # 第 3 节课：AI 智能体与角色交互
