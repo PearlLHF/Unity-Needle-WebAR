@@ -55,9 +55,3 @@ Unity-Needle-WebAR/
 └── img/                                                     # 教程截图与配图
 ```
 
-## 使用说明
-
-- 按课程顺序阅读教程；第 2 节课需要先完成第 1 节课，并继续使用 `FirstWebAR` 场景。
-- `prerequisite/` 存放课程使用的 Needle Engine Unity 安装包。
-- 将 `scripts/` 中需要的脚本复制到 Needle Web 项目的 `src/scripts/` 目录，不要放进 Unity 项目的 `Assets/` 目录。具体操作见[第 2 节课教程](tutorial-2-interaction.md)。
-
