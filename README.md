@@ -4,6 +4,12 @@
 >
 > 写代码和排查报错时，不要只用网页版 Chat 工具复制粘贴片段或者上传截图。请使用 Antigravity、VS Code（GitHub Copilot）、Claude Code、Codex、DeepSeek Harness 或 WorkBuddy 直接打开你的 Unity 工程工作区，让 AI 结合完整的项目上下文精准定位问题。
 
+> **🙋 答疑课提问要求：请先填写 [提问模板（qa-template.md）](qa-template.md)**
+>
+> 答疑课主要解决大家在自己实现 WebAR 项目时遇到的卡点。为了提高答疑效率，避免把时间花在“少保存了一次文件”“脚本放错 Web 项目”或“没看报错直接提问”这类可以自行排查的小问题上，请大家在向老师提问前，先对照 [提问模板](qa-template.md) 完成基础自查并填写后再来提问。
+>
+> 模板中的各项可以先简明填写关键信息（一开始的问题、做过哪些排查、当前的报错），提问时再结合模板内容向老师更具体地描述问题经过。
+
 本仓库存放基于 Unity 与 Needle Engine 的 WebAR 课程课件与实验教程。
 
 ## 课程内容
@@ -30,6 +36,7 @@
 Unity-Needle-WebAR/
 ├── README.md
 ├── ai-tool-workspace-guide.md                               # AI 编程工具与工作区上下文使用指南
+├── qa-template.md                                           # 答疑课提问前自查与提问模板
 ├── tutorial-1-basic.md                                      # 第 1 节课：创建 WebAR 场景
 ├── tutorial-2-interaction.md                                # 第 2 节课：TypeScript 交互
 ├── tutorial-3-ai-agent.md                                   # 第 3 节课：AI 智能体与角色交互
